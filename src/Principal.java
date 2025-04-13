@@ -5,13 +5,13 @@ public class Principal {
     public static void main(String[] args){
         Virus p = new Virus("paro");
         Scanner tecl = new Scanner(System.in);
-        int cont=0,val,b=0;
-       while (cont<5 && b==0) {
+        int cont=0,val,bn=0;
+       while (cont<5 && bn==0) {
             System.out.println("Ingrese Neutralizante entre (1,10):");
             val= tecl.nextInt();
             p.neutralizar(val);
             if(!p.esNocivo()){
-                b=1;
+                bn=1;
             }
             cont++;
        }
