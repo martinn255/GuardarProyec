@@ -11,10 +11,11 @@ public class Virus {
     public Virus(String nombre){
         this.nombre = nombre;
     }
-
+    //no va
     public int getAdn(){
         return this.adn;
     }
+    
 
     public boolean esNocivo(){
         return this.nocivo;
